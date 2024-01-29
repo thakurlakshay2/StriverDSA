@@ -1,9 +1,10 @@
 package Arrays;
+import java.util.Arrays;
 
 //Idea is to find a number from last that has just a lower number next to it on both end and finding a
 //place to swap it.
-public class nextPermutation {
-    void nextPermutationSolve(int[] num){
+public class NextPermutation {
+    protected  void nextPermutationSolve(int[] nums){
         int length=nums.length;
         int swapElement=0;
         for(int i=length-2;i>=0;i--){
