@@ -1,6 +1,6 @@
 package Arrays;
 import java.util.Arrays;
-
+//https://leetcode.com/problems/next-permutation/
 //Idea is to find a number from last that has just a lower number next to it on both end and finding a
 //place to swap it.
 public class NextPermutation {

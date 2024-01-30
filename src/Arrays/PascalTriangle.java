@@ -1,7 +1,7 @@
 package Arrays;
 import java.util.ArrayList;
 import java.util.List;
-
+//https://leetcode.com/problems/pascals-triangle/
 public class PascalTriangle {
    private List<List<Integer>> pascal;
 
