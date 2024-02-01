@@ -1,7 +1,5 @@
 package Arrays;
 
-import java.util.Arrays;
-
 public class Main {
     public static void main(String[] args) {
         NextPermutation q1=new NextPermutation();
@@ -37,8 +35,25 @@ public class Main {
         RotateImage q7=new RotateImage();
         q7.rotateImageOptimised(new int[][]{{1,2,3},{4,5,6},{7,8,9}});
 
-        mergeOverlapIntervals q8=new mergeOverlapIntervals();
+        MergeOverlapIntervals q8=new MergeOverlapIntervals();
         q8.mergeOverlapIntervalsCodeOptimised(new int[][]{{1,3},{2,6},{8,10},{15,18},{12,19}});
 
+        MergeTwoSortedArrays q9=new MergeTwoSortedArrays();
+        q9.mergeTwoSortedArrayApprocah1(new int[]{1,3,5,7},new int[]{0,2,4,6,8});
+
+
+        FindDuplicateInArray q10=new FindDuplicateInArray();
+        q10.findDuplicateApproach1(new int[]{1,7,4,3,6,4,5,6});
+        q10.findDuplicateApproach1(new int[]{1,7,4,3,6,4,5,6});
+
+    System.out.println();
+
+        RepeatingAndMissingNumber q11=new RepeatingAndMissingNumber();
+        q11.repeatingAndMissingNumberBrute(new int[]{1,2,3,3,4,5,7,8,9});
+        q11.repeatingAndMissingNumberBetter(new int[]{1,2,3,3,4,5,7,8,9});
+        q11.repeatingAndMissingNumberMathSolution(new int[]{1,2,3,3,4,5,7,8,9});
+
+        CountInversions q12=new CountInversions();
+        q12.CountInversions(new int[]{5,3,2,1,4});
     }
 }
