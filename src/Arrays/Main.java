@@ -46,7 +46,7 @@ public class Main {
         q10.findDuplicateApproach1(new int[]{1,7,4,3,6,4,5,6});
         q10.findDuplicateApproach1(new int[]{1,7,4,3,6,4,5,6});
 
-    System.out.println();
+        System.out.println();
 
         RepeatingAndMissingNumber q11=new RepeatingAndMissingNumber();
         q11.repeatingAndMissingNumberBrute(new int[]{1,2,3,3,4,5,7,8,9});
@@ -55,5 +55,23 @@ public class Main {
 
         CountInversions q12=new CountInversions();
         q12.CountInversions(new int[]{5,3,2,1,4});
+
+        SearchIn2DMatrix q13=new SearchIn2DMatrix();
+        q13.SearchIn2dMatrixOptimised(new int[][]{{1,2,3},{4,5,6},{7,8,9}},7);
+
+        PowXn q14=new PowXn();
+        q14.implementPowXnOptimised(4.22,4);
+
+        MajorityElement q15=new MajorityElement();
+        q15.majorityElemenMoreThanHalfBrute(new int[]{1,2,3,4,4,4,4,5,6,4,4});
+        q15.majorityElemenMoreThanHalfOptimised(new int[]{1,2,3,4,4,4,4,5,6,4,4});
+        q15.majorityElemenMoreThanOneThirdOptimised(new int[]{11,33,33,11,33,11});
+
+        GridUniquePath q16=new GridUniquePath();
+        q16.gridUniquePathOptimised(2,3);
+
+        CountReversePairs q17=new CountReversePairs();
+        q17.reversePairCountOptimised(new int[]{1,3,2,3,1});
+
     }
 }

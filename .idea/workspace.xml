@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3861e84-90f7-4fae-8c98-fcc0bdfe10e3" name="Changes" comment="workspace xml update">
-      <change afterPath="$PROJECT_DIR$/src/Arrays/CountInversions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/FindDuplicateInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/MergeTwoSortedArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/RepeatingAndMissingNumber.java" afterDir="false" />
+    <list default="true" id="d3861e84-90f7-4fae-8c98-fcc0bdfe10e3" name="Changes" comment="[day 4] arrays">
+      <change afterPath="$PROJECT_DIR$/src/Arrays/CountReversePairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/GridUniquePath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/MajorityElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/PowXn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/SearchIn2DMatrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Arrays/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/mergeOverlapIntervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/MergeOverlapIntervals.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +27,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "thakurlakshay2"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="bec21ae4-48b0-43c2-9d10-0bbf705d2c4a" />
+        <option name="url" value="https://github.com/thakurlakshay2/StriverDSA.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -114,14 +128,23 @@
       <option name="project" value="LOCAL" />
       <updated>1706774040586</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="[day 4] arrays">
+      <option name="closed" value="true" />
+      <created>1706806903136</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706806903136</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[init] Striver sheet" />
     <MESSAGE value="[init] Striver sheet day 2" />
     <MESSAGE value="workspace xml update" />
-    <option name="LAST_COMMIT_MESSAGE" value="workspace xml update" />
+    <MESSAGE value="[day 4] arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="[day 4] arrays" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
