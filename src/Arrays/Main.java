@@ -73,5 +73,24 @@ public class Main {
         CountReversePairs q17=new CountReversePairs();
         q17.reversePairCountOptimised(new int[]{1,3,2,3,1});
 
+        TwoSum q18=new TwoSum();
+        q18.twoSumOptimised(new int[]{2,6,5,8,11},14);
+        q18.twoSumOptimisedMore(new int[]{2,6,5,8,11},14);
+
+        FourSum q19=new FourSum();
+        q19.fourSomeOptimised(new int[]{4,3,3,4,4,2,1,2,1,1},9);
+
+        LongestConsecutiveSequence q20=new LongestConsecutiveSequence();
+        q20.longestConsecSeqBetterApproach(new int[]{100, 200, 1, 3, 2, 4});
+        q20.longestConsecSeqOptimal(new int[]{100,200,1,3,2,4,8,6,7});
+
+        LongestSubarryWithSumZero q21=new LongestSubarryWithSumZero();
+        q21.longesSubarraySumZeroOptimised(new int[]{9, -3, 3, -1, 6, -5});
+
+        CountSubArrayWithXOR q22=new CountSubArrayWithXOR();
+        q22.countSubArrayWithXOR(new int[]{4,2,2,6,4},6);
+
+        LongestSubstringWithoutRepeating q23=new LongestSubstringWithoutRepeating();
+        q23.longestSubstringWithRepeatingOptimised("abcabcbb");
     }
 }

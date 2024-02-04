@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3861e84-90f7-4fae-8c98-fcc0bdfe10e3" name="Changes" comment="[day 4] arrays">
-      <change afterPath="$PROJECT_DIR$/src/Arrays/CountReversePairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/GridUniquePath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/MajorityElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/PowXn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/SearchIn2DMatrix.java" afterDir="false" />
+    <list default="true" id="d3861e84-90f7-4fae-8c98-fcc0bdfe10e3" name="Changes" comment="[day 5] arrays">
+      <change afterPath="$PROJECT_DIR$/src/Arrays/CountSubArrayWithXOR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/FourSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/LongestConsecutiveSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/LongestSubarryWithSumZero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/LongestSubstringWithoutRepeating.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/TwoSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Arrays/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/Main.java" afterDir="false" />
     </list>
@@ -28,12 +29,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "thakurlakshay2"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;thakurlakshay2&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -56,18 +57,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/macbookpro/Desktop/DSA/StriverDSA",
-    "onboarding.tips.debug.path": "D:/Striver/DSA/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/macbookpro/Desktop/DSA/StriverDSA&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Striver/DSA/src/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Arrays.Main" />
@@ -136,7 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706806903136</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="[day 5] arrays">
+      <option name="closed" value="true" />
+      <created>1706893339563</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706893339563</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -144,7 +153,8 @@
     <MESSAGE value="[init] Striver sheet day 2" />
     <MESSAGE value="workspace xml update" />
     <MESSAGE value="[day 4] arrays" />
-    <option name="LAST_COMMIT_MESSAGE" value="[day 4] arrays" />
+    <MESSAGE value="[day 5] arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="[day 5] arrays" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
