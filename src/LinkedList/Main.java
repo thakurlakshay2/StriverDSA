@@ -29,5 +29,22 @@ public class Main {
         DeleteNodeLL q6=new DeleteNodeLL();
         q6.deleteNodeOptimal(list1.next.next.next);
         PrintLL.print(list1);
+
+        FindIntersectionNode q7=new FindIntersectionNode();
+        list1=LL.createLL(new int[]{3,0,2,3,4});
+        list2=LL.createLL(new int[]{1,9,3,4});
+        list2.next.next=list1.next.next.next;  //connecting last 2 elements in both
+        q7.findIntersection(list1,list2);
+
+        DetectCycle q8=new DetectCycle();
+        list1=LL.createLL(new int[]{3,0,2,3,4});
+        list1.next.next.next.next=list1.next.next;
+        q8.detectCycleOptimised(list1);
+        q8.findLengthOfCycle(list1);
+        q8.findStartPointOfLoop(list1);
+
+        CheckPallindrome q9=new CheckPallindrome();
+        list1=LL.createLL(new int[]{1,2,3,4,3,2,1});
+        q9.checkPallindromeLL(list1);
     }
 }

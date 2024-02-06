@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3861e84-90f7-4fae-8c98-fcc0bdfe10e3" name="Changes" comment="[day 6] arrays">
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/AddTwoNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/DeleteNodeLL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/FindMiddleOfLL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/LL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/MergeTwoSortedLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/PrintLL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/RemoveNthNodeFromEnd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/ReverseLinkedList.java" afterDir="false" />
+    <list default="true" id="d3861e84-90f7-4fae-8c98-fcc0bdfe10e3" name="Changes" comment="[day 7] LinkedList">
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/CheckPallindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/DetectCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/FindIntersectionNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/Length.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/ReverseLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,8 +167,27 @@
       <option name="project" value="LOCAL" />
       <updated>1707038228335</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="[day 7] LinkedList">
+      <option name="closed" value="true" />
+      <created>1707138544836</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1707138544836</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[init] Striver sheet" />
@@ -180,7 +196,8 @@
     <MESSAGE value="[day 4] arrays" />
     <MESSAGE value="[day 5] arrays" />
     <MESSAGE value="[day 6] arrays" />
-    <option name="LAST_COMMIT_MESSAGE" value="[day 6] arrays" />
+    <MESSAGE value="[day 7] LinkedList" />
+    <option name="LAST_COMMIT_MESSAGE" value="[day 7] LinkedList" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
