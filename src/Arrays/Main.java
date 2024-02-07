@@ -92,5 +92,19 @@ public class Main {
 
         LongestSubstringWithoutRepeating q23=new LongestSubstringWithoutRepeating();
         q23.longestSubstringWithRepeatingOptimised("abcabcbb");
+
+        ThreeSum q24=new ThreeSum();
+        q24.threeSum(new int[]{-1,0,1,2,-1,-4});
+        System.out.println("--------");
+
+        TrappedRainwater q25=new TrappedRainwater();
+        q25.trappedRainwaterOptimised(new int[]{0,1,0,2,1,0,1,3,2,1,2,1});
+
+        RemoveDuplicates q26=new RemoveDuplicates();
+        q26.removeDuplicatesInPlaceOptimised(new int[]{1,1,2,2,2,3,3});
+
+        MaximumConsecutiveOnes q27=new MaximumConsecutiveOnes();
+        q27.maximumConsecOnesOptimised(new int[]{1,1,1,0,1,1,0,1,1,1,1,0});
+
     }
 }

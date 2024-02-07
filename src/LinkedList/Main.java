@@ -46,5 +46,13 @@ public class Main {
         CheckPallindrome q9=new CheckPallindrome();
         list1=LL.createLL(new int[]{1,2,3,4,3,2,1});
         q9.checkPallindromeLL(list1);
+
+        RotateALLWithK q10=new RotateALLWithK();
+        list1=LL.createLL(new int[]{1,2,3,4,5,6,7});
+        q10.rotateK(list1,0);
+
+        CloneLL q11=new CloneLL();
+        list1=LL.createLL(new int[]{1,2,3,4,5,6,7});
+        q11.CloneWithNextPointer(list1);
     }
 }

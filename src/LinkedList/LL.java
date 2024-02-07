@@ -3,10 +3,17 @@ package LinkedList;
 public class LL {
     int val;
     LL next;
+    LL random;
 
+    public LL(int val){
+        this.val=val;
+        this.next=null;
+        this.random=null;
+    }
     public LL(int val, LL next) {
         this.val = val;
         this.next = next;
+        this.random=null;
     }
 
     public static LL createLL(int[] num){
