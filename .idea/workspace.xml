@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3861e84-90f7-4fae-8c98-fcc0bdfe10e3" name="Changes" comment="[day 9] LinkedList and Array">
-      <change afterPath="$PROJECT_DIR$/src/GreedyAlgorithm/FindMinimumCoins.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GreedyAlgorithm/FractionalKnapscak.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GreedyAlgorithm/JobSequencingProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GreedyAlgorithm/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GreedyAlgorithm/MinimumPlatformRequired.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GreedyAlgorithm/NMeetingsInRoom.java" afterDir="false" />
+    <list default="true" id="d3861e84-90f7-4fae-8c98-fcc0bdfe10e3" name="Changes" comment="[day 10] Greedy Algorithm">
+      <change afterPath="$PROJECT_DIR$/src/Recursion/CombinationSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/FindKthPermutationSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/PallindromePartitioning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/SubSetSums.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/MaximumConsecutiveOnes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/MaximumConsecutiveOnes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +60,7 @@
     "Application.GreedyAlgorithm.Main.executor": "Run",
     "Application.LinkedList.Main.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.Recursion.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -71,7 +70,7 @@
     "onboarding.tips.debug.path": "D:/Striver/DSA/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.GreedyAlgorithm.Main">
+  <component name="RunManager" selected="Application.Recursion.Main">
     <configuration name="GreedyAlgorithm.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GreedyAlgorithm.Main" />
       <module name="DSA" />
@@ -111,8 +110,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Recursion.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.Main" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Recursion.Main" />
         <item itemvalue="Application.GreedyAlgorithm.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.LinkedList.Main" />
@@ -207,7 +220,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707306588381</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="[day 10] Greedy Algorithm">
+      <option name="closed" value="true" />
+      <created>1707404248209</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1707404248209</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -231,7 +252,8 @@
     <MESSAGE value="[day 7] LinkedList" />
     <MESSAGE value="[day 8] LinkedList" />
     <MESSAGE value="[day 9] LinkedList and Array" />
-    <option name="LAST_COMMIT_MESSAGE" value="[day 9] LinkedList and Array" />
+    <MESSAGE value="[day 10] Greedy Algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="[day 10] Greedy Algorithm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
