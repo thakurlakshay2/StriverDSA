@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3861e84-90f7-4fae-8c98-fcc0bdfe10e3" name="Changes" comment="[day 10] Greedy Algorithm">
-      <change afterPath="$PROJECT_DIR$/src/Recursion/CombinationSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/FindKthPermutationSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/PallindromePartitioning.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/SubSetSums.java" afterDir="false" />
+    <list default="true" id="d3861e84-90f7-4fae-8c98-fcc0bdfe10e3" name="Changes" comment="[day 11] Recursion">
+      <change afterPath="$PROJECT_DIR$/src/Recursion/MColoringProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/NQueen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/PrintAllPermutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/RatInAMaze.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/Sudoku.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/FindKthPermutationSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/FindKthPermutationSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,7 +230,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707404248209</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="[day 11] Recursion">
+      <option name="closed" value="true" />
+      <created>1707486395292</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1707486395292</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -253,7 +263,8 @@
     <MESSAGE value="[day 8] LinkedList" />
     <MESSAGE value="[day 9] LinkedList and Array" />
     <MESSAGE value="[day 10] Greedy Algorithm" />
-    <option name="LAST_COMMIT_MESSAGE" value="[day 10] Greedy Algorithm" />
+    <MESSAGE value="[day 11] Recursion" />
+    <option name="LAST_COMMIT_MESSAGE" value="[day 11] Recursion" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

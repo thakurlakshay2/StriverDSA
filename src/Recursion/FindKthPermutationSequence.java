@@ -24,6 +24,6 @@ public class FindKthPermutationSequence {
             fact=fact/index.size();
         }
 
-        System.out.print(ans);
+        System.out.println(ans);
     }
 }
