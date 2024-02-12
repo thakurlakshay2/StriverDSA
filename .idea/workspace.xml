@@ -4,15 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3861e84-90f7-4fae-8c98-fcc0bdfe10e3" name="Changes" comment="[day 11] Recursion">
-      <change afterPath="$PROJECT_DIR$/src/Recursion/MColoringProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/NQueen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/PrintAllPermutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/RatInAMaze.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/Sudoku.java" afterDir="false" />
+    <list default="true" id="d3861e84-90f7-4fae-8c98-fcc0bdfe10e3" name="Changes" comment="[day 12] Recursion">
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/AgressiveCows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/AllocateMinimumPages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/MedianRowSortedMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/NthRootOfNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/SearchASingleElementInRepeatedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/SearchPivotInSortedArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion/FindKthPermutationSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/FindKthPermutationSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +59,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BinarySearch.Main.executor": "Run",
     "Application.GreedyAlgorithm.Main.executor": "Run",
     "Application.LinkedList.Main.executor": "Run",
     "Application.Main.executor": "Run",
@@ -72,7 +73,20 @@
     "onboarding.tips.debug.path": "D:/Striver/DSA/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Recursion.Main">
+  <component name="RunManager" selected="Application.BinarySearch.Main">
+    <configuration name="BinarySearch.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearch.Main" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BinarySearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GreedyAlgorithm.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GreedyAlgorithm.Main" />
       <module name="DSA" />
@@ -127,6 +141,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySearch.Main" />
         <item itemvalue="Application.Recursion.Main" />
         <item itemvalue="Application.GreedyAlgorithm.Main" />
         <item itemvalue="Application.Main" />
@@ -238,7 +253,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707486395292</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="[day 12] Recursion">
+      <option name="closed" value="true" />
+      <created>1707563329003</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1707563329003</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -264,7 +287,8 @@
     <MESSAGE value="[day 9] LinkedList and Array" />
     <MESSAGE value="[day 10] Greedy Algorithm" />
     <MESSAGE value="[day 11] Recursion" />
-    <option name="LAST_COMMIT_MESSAGE" value="[day 11] Recursion" />
+    <MESSAGE value="[day 12] Recursion" />
+    <option name="LAST_COMMIT_MESSAGE" value="[day 12] Recursion" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
