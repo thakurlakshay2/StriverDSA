@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3861e84-90f7-4fae-8c98-fcc0bdfe10e3" name="Changes" comment="[day 13] Binary Search">
-      <change afterPath="$PROJECT_DIR$/src/Heaps/KthlargestElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Heaps/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Heaps/MaximumSumCombination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Heaps/MinHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Heaps/TopKFrequentElement.java" afterDir="false" />
+    <list default="true" id="d3861e84-90f7-4fae-8c98-fcc0bdfe10e3" name="Changes" comment="[day 14] Heaps">
+      <change afterPath="$PROJECT_DIR$/src/StacknQueue/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StacknQueue/QueueUsingArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StacknQueue/StackUsingArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StacknQueue/StackUsingQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +62,7 @@
     "Application.LinkedList.Main.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Recursion.Main.executor": "Run",
+    "Application.StacknQueue.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -72,7 +72,7 @@
     "onboarding.tips.debug.path": "D:/Striver/DSA/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Heaps.Main">
+  <component name="RunManager" selected="Application.StacknQueue.Main">
     <configuration name="BinarySearch.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinarySearch.Main" />
       <module name="DSA" />
@@ -112,19 +112,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.Main" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Recursion.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Recursion.Main" />
       <module name="DSA" />
@@ -138,13 +125,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StacknQueue.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StacknQueue.Main" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StacknQueue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StacknQueue.Main" />
         <item itemvalue="Application.Heaps.Main" />
         <item itemvalue="Application.BinarySearch.Main" />
         <item itemvalue="Application.Recursion.Main" />
         <item itemvalue="Application.GreedyAlgorithm.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -268,7 +268,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707747276606</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="[day 14] Heaps">
+      <option name="closed" value="true" />
+      <created>1707834557888</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1707834557888</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -296,7 +304,8 @@
     <MESSAGE value="[day 11] Recursion" />
     <MESSAGE value="[day 12] Recursion" />
     <MESSAGE value="[day 13] Binary Search" />
-    <option name="LAST_COMMIT_MESSAGE" value="[day 13] Binary Search" />
+    <MESSAGE value="[day 14] Heaps" />
+    <option name="LAST_COMMIT_MESSAGE" value="[day 14] Heaps" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
