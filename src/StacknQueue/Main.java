@@ -30,6 +30,30 @@ public class Main {
         System.out.println(queue.pop());
         System.out.println(queue.top());
 
+        balancedParenthesis q1=new balancedParenthesis();
+        System.out.println(q1.balanceCheck("()[{}()]"));
+        NextGreaterElement q2=new NextGreaterElement();
+        q2.nge(new int[]{5,7,1,2,6,0});
+
+
+        NextSmallestElement q3=new NextSmallestElement();
+        q3.nse(new int[]{4,5,2,10,8});
+
+        LRU lru=new LRU(5);
+
+        lru.put(new int[]{1,1});
+        lru.put(new int[]{2,2});
+        lru.put(new int[]{3,3});
+        lru.put(new int[]{4,4});
+        lru.put(new int[]{5,5});
+        System.out.println(lru.get(1));
+        System.out.println(lru.get(3));
+        System.out.println(lru.get(4));
+        System.out.println(lru.get(6));
+
+        lru.put(new int[]{6,6});
+        System.out.println(lru.get(6));
+        System.out.println(lru.get(1));
 
     }
 }

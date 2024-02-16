@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3861e84-90f7-4fae-8c98-fcc0bdfe10e3" name="Changes" comment="[day 14] Heaps">
-      <change afterPath="$PROJECT_DIR$/src/StacknQueue/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StacknQueue/QueueUsingArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StacknQueue/StackUsingArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StacknQueue/StackUsingQueue.java" afterDir="false" />
+    <list default="true" id="d3861e84-90f7-4fae-8c98-fcc0bdfe10e3" name="Changes" comment="[day 15] stack and queue">
+      <change afterPath="$PROJECT_DIR$/src/StacknQueue/LRU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StacknQueue/NextGreaterElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StacknQueue/NextSmallestElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StacknQueue/QueueUsingStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StacknQueue/balancedParenthesis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StacknQueue/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StacknQueue/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StacknQueue/QueueUsingArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StacknQueue/QueueUsingArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StacknQueue/StackUsingArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StacknQueue/StackUsingArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -276,7 +280,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707834557888</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="[day 15] stack and queue">
+      <option name="closed" value="true" />
+      <created>1708017060205</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1708017060205</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -305,7 +317,8 @@
     <MESSAGE value="[day 12] Recursion" />
     <MESSAGE value="[day 13] Binary Search" />
     <MESSAGE value="[day 14] Heaps" />
-    <option name="LAST_COMMIT_MESSAGE" value="[day 14] Heaps" />
+    <MESSAGE value="[day 15] stack and queue" />
+    <option name="LAST_COMMIT_MESSAGE" value="[day 15] stack and queue" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

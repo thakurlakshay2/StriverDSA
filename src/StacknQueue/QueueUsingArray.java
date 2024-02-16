@@ -1,5 +1,6 @@
 package StacknQueue;
 
+//https://takeuforward.org/data-structure/implement-queue-using-array/
 public class QueueUsingArray {
     private int[] queue;
     private int size,start,end,currSize;
