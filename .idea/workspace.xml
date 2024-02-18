@@ -4,16 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3861e84-90f7-4fae-8c98-fcc0bdfe10e3" name="Changes" comment="[day 15] stack and queue">
-      <change afterPath="$PROJECT_DIR$/src/StacknQueue/LRU.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StacknQueue/NextGreaterElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StacknQueue/NextSmallestElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StacknQueue/QueueUsingStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StacknQueue/balancedParenthesis.java" afterDir="false" />
+    <list default="true" id="d3861e84-90f7-4fae-8c98-fcc0bdfe10e3" name="Changes" comment="[day 16] stack and queue , LRU TBD">
+      <change afterPath="$PROJECT_DIR$/src/StacknQueue/AreaOfHistogram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StacknQueue/LFU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StacknQueue/MinStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StacknQueue/RottenOrange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StacknQueue/SlidingWindowMaximum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StacknQueue/LRU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StacknQueue/LRU.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/StacknQueue/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StacknQueue/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StacknQueue/QueueUsingArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StacknQueue/QueueUsingArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StacknQueue/StackUsingArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StacknQueue/StackUsingArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -288,7 +287,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708017060205</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="[day 16] stack and queue , LRU TBD">
+      <option name="closed" value="true" />
+      <created>1708100702121</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1708100702121</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -318,7 +325,8 @@
     <MESSAGE value="[day 13] Binary Search" />
     <MESSAGE value="[day 14] Heaps" />
     <MESSAGE value="[day 15] stack and queue" />
-    <option name="LAST_COMMIT_MESSAGE" value="[day 15] stack and queue" />
+    <MESSAGE value="[day 16] stack and queue , LRU TBD" />
+    <option name="LAST_COMMIT_MESSAGE" value="[day 16] stack and queue , LRU TBD" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

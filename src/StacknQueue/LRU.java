@@ -2,6 +2,7 @@ package StacknQueue;
 
 import java.util.HashMap;
 
+//https://takeuforward.org/data-structure/implement-lru-cache/
 public class LRU {
     private static class Node{
         int val;
@@ -42,64 +43,64 @@ public class LRU {
 
     }
     public void put(int[] val){
-         if(cache.containsKey(val[0])){
-             add(cache.get(val[0]));
-         }else{
+        if(cache.containsKey(val[0])) remove(val[0]);
+        else if(currSize==capacity) remove(head.next.val);
 
-             if(capacity==currSize) {
-                 System.out.println(head.next.val);
-                 delete(head.next.val);
-                 System.out.println(head.next.val);
 
-             };
-             add(val);
-         }
+        add(val);
     }
     public int get(int val){
         if(cache.containsKey(val)){
-            add(cache.get(val));
 
-            return cache.get(val).val;
+            Node n=remove(val);
+
+            add(new int[]{val,n.val});
+
+            return n.val;
         }
         else{
             return -1;
         }
     }
-    private void delete(int n){
-        Node remove= cache.get(n);
-        Node prev=remove.prev;
-        Node next=remove.next;
-        System.out.print(prev.val +" --- "+next.val);
-        prev.next=next;
-        next.prev=prev;
+    private Node remove(int n){
 
+       Node rem=cache.get(n);
 
-        remove.next=null;
-        remove.prev=null;
-        System.out.print(remove.val +" --- "+ head.next.val);
+        Node pre=rem.prev;
+        Node nex=rem.next;
+
+        pre.next=nex;
+        nex.prev=pre;
+
+        rem.prev=null;
+        rem.next=null;
         cache.remove(n);
+        currSize--;
+        return rem;
     }
     //first occurance
     private void add(int[] val){
-        Node n=new Node(val[1]);
-        cache.put(val[0],n);
-        add(n);
-        currSize++;
+
+        Node n;
+        if(cache.containsKey(val[0])) n=cache.get(val[0]);
+        else {
+            n=new Node(val[1]);
+            cache.put(val[0],n);
+            currSize++;
+        }
+
+        addNode(n);
+
     }
 
     //reoccurance
-    private void add(Node v){
-        Node prev=v.prev;
-        Node next=v.next;
+    private void addNode(Node v){
+       Node trueTail=tail.prev;
+       trueTail.next=v;
+       v.prev=trueTail;
 
-        prev.next=next;
-        next.prev=prev;
-
-        Node actTail=tail.prev;
-        actTail.next=v;
-        v.prev=actTail;
-        v.next=tail;
-        tail.prev=v;
+       tail.prev=v;
+       v.next=tail;
 
     }
 
