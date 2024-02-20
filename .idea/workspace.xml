@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3861e84-90f7-4fae-8c98-fcc0bdfe10e3" name="Changes" comment="[day 17] stack and queue">
-      <change afterPath="$PROJECT_DIR$/src/Strings/LongestCommonPrefix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/LongestPallindromicSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/ReverseAString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/RomanToInteger.java" afterDir="false" />
+    <list default="true" id="d3861e84-90f7-4fae-8c98-fcc0bdfe10e3" name="Changes" comment="[day 18] string">
+      <change afterPath="$PROJECT_DIR$/src/Strings/MinimumCharacterForPallindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/RepeatedStringMatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/ValidAnagram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strings/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -302,7 +301,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708240229363</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="[day 18] string">
+      <option name="closed" value="true" />
+      <created>1708395986680</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1708395986680</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -334,7 +341,8 @@
     <MESSAGE value="[day 15] stack and queue" />
     <MESSAGE value="[day 16] stack and queue , LRU TBD" />
     <MESSAGE value="[day 17] stack and queue" />
-    <option name="LAST_COMMIT_MESSAGE" value="[day 17] stack and queue" />
+    <MESSAGE value="[day 18] string" />
+    <option name="LAST_COMMIT_MESSAGE" value="[day 18] string" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

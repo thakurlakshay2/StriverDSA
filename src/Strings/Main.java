@@ -14,5 +14,10 @@ public class Main {
 
         LongestCommonPrefix q4=new LongestCommonPrefix();
         q4.lcp(new String[]{"flower","flow","flight"});
+        RepeatedStringMatch q5=new RepeatedStringMatch();
+        q5.RabinKarpAlgo("sadbutsad","sad",7);
+
+        MinimumCharacterForPallindrome q6=new MinimumCharacterForPallindrome();
+        q6.makePallindrome("xxaxxa");
     }
 }
