@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3861e84-90f7-4fae-8c98-fcc0bdfe10e3" name="Changes" comment="[day 16] stack and queue , LRU TBD">
-      <change afterPath="$PROJECT_DIR$/src/StacknQueue/AreaOfHistogram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StacknQueue/LFU.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StacknQueue/MinStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StacknQueue/RottenOrange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StacknQueue/SlidingWindowMaximum.java" afterDir="false" />
+    <list default="true" id="d3861e84-90f7-4fae-8c98-fcc0bdfe10e3" name="Changes" comment="[day 17] stack and queue">
+      <change afterPath="$PROJECT_DIR$/src/Strings/LongestCommonPrefix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/LongestPallindromicSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/ReverseAString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/RomanToInteger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StacknQueue/LRU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StacknQueue/LRU.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StacknQueue/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StacknQueue/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,10 +70,11 @@
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/macbookpro/Desktop/DSA/StriverDSA",
-    "onboarding.tips.debug.path": "D:/Striver/DSA/src/Main.java"
+    "onboarding.tips.debug.path": "D:/Striver/DSA/src/Main.java",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.StacknQueue.Main">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="BinarySearch.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinarySearch.Main" />
       <module name="DSA" />
@@ -89,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GreedyAlgorithm.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GreedyAlgorithm.Main" />
+    <configuration name="Heaps.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Heaps.Main" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="GreedyAlgorithm.*" />
+          <option name="PATTERN" value="Heaps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Heaps.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Heaps.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.Main" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Heaps.*" />
+          <option name="PATTERN" value="Strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.StacknQueue.Main" />
         <item itemvalue="Application.Heaps.Main" />
         <item itemvalue="Application.BinarySearch.Main" />
         <item itemvalue="Application.Recursion.Main" />
-        <item itemvalue="Application.GreedyAlgorithm.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -295,7 +294,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708100702121</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="[day 17] stack and queue">
+      <option name="closed" value="true" />
+      <created>1708240229363</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1708240229363</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -326,7 +333,8 @@
     <MESSAGE value="[day 14] Heaps" />
     <MESSAGE value="[day 15] stack and queue" />
     <MESSAGE value="[day 16] stack and queue , LRU TBD" />
-    <option name="LAST_COMMIT_MESSAGE" value="[day 16] stack and queue , LRU TBD" />
+    <MESSAGE value="[day 17] stack and queue" />
+    <option name="LAST_COMMIT_MESSAGE" value="[day 17] stack and queue" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
