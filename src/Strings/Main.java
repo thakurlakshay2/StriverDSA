@@ -19,5 +19,11 @@ public class Main {
 
         MinimumCharacterForPallindrome q6=new MinimumCharacterForPallindrome();
         q6.makePallindrome("xxaxxa");
+
+        CountAndSay q7=new CountAndSay();
+        q7.countNSay(5);
+
+        CompareVersion q8=new CompareVersion();
+        q8.compareVersion("1.01","1.0001");
     }
 }

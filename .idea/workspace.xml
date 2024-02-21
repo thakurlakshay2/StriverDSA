@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3861e84-90f7-4fae-8c98-fcc0bdfe10e3" name="Changes" comment="[day 18] string">
-      <change afterPath="$PROJECT_DIR$/src/Strings/MinimumCharacterForPallindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/RepeatedStringMatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/ValidAnagram.java" afterDir="false" />
+    <list default="true" id="d3861e84-90f7-4fae-8c98-fcc0bdfe10e3" name="Changes" comment="[day 19] string">
+      <change afterPath="$PROJECT_DIR$/src/Strings/CompareVersion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/CountAndSay.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Strings/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/Main.java" afterDir="false" />
     </list>
@@ -309,7 +308,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708395986680</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="[day 19] string">
+      <option name="closed" value="true" />
+      <created>1708443900604</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1708443900604</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -342,7 +349,8 @@
     <MESSAGE value="[day 16] stack and queue , LRU TBD" />
     <MESSAGE value="[day 17] stack and queue" />
     <MESSAGE value="[day 18] string" />
-    <option name="LAST_COMMIT_MESSAGE" value="[day 18] string" />
+    <MESSAGE value="[day 19] string" />
+    <option name="LAST_COMMIT_MESSAGE" value="[day 19] string" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
