@@ -1,5 +1,7 @@
 package BinaryTree;
 
+import com.sun.source.tree.Tree;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -12,5 +14,12 @@ public class Main {
         System.out.println();
         TreeNode.morrieInorder(tree);
         TreeNode.morriePreorder(tree);
+        TreeNode.leftView(tree);
+        TreeNode.rightView(tree);
+        TreeNode.bottomView(tree);
+        TreeNode.topView(tree);
+
+        TreeNode.rootToNodePath(tree,7);
+        TreeNode.widthOfTree(tree);
     }
 }

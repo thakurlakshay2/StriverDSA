@@ -2,21 +2,20 @@ package BinaryTree;
 
 import com.sun.source.tree.Tree;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
+import java.util.*;
 
 public class TreeNode {
     public TreeNode left;
     public TreeNode right;
 
     public int val;
+    public int hd;
 
     public TreeNode(int val){
         this.val=val;
         this.left=null;
         this.right=null;
+        this.hd=0;
 
     }
     public static  TreeNode createTree (int[] nums) {
@@ -42,6 +41,7 @@ public class TreeNode {
         this.left = left;
         this.right = right;
         this.val=val;
+        this.hd=0;
     }
 
     public static void preOrder(TreeNode tree){
@@ -132,4 +132,142 @@ public class TreeNode {
         System.out.println();
     }
 
+    public static void leftView(TreeNode root){
+        List<Integer> ans=new ArrayList<>();
+        lw(root,ans,0);
+        for(int val:ans){
+            System.out.print(val+" ");
+        }
+        System.out.println();
+
+    }
+    private static void lw(TreeNode root,List<Integer> l , int height){
+        if(root==null){
+            return ;
+        }
+        if(height==l.size()){
+            l.add(root.val);
+        }
+        lw(root.left,l,height+1);
+        lw(root.right,l,height+1);
+    }
+
+    public static void rightView(TreeNode root){
+        List<Integer> ans=new ArrayList<>();
+        rw(root,ans,0);
+        for(int val:ans){
+            System.out.print(val+" ");
+        }
+        System.out.println();
+
+    }
+    private static void rw(TreeNode root,List<Integer> l , int height){
+        if(root==null){
+            return ;
+        }
+        if(height==l.size()){
+            l.add(root.val);
+        }
+        rw(root.right,l,height+1);
+        rw(root.left,l,height+1);
+    }
+
+    public  static void bottomView(TreeNode root){
+
+        Map<Integer, Integer> map = new TreeMap<>();
+        Queue<TreeNode> q = new LinkedList<TreeNode>();
+        root.hd = 0;
+        q.add(root);
+        while(!q.isEmpty()) {
+            TreeNode temp = q.remove();
+            int hd = temp.hd;
+            map.put(hd, temp.val);
+            if(temp.left != null) {
+                temp.left.hd = hd - 1;
+                q.add(temp.left);
+            }
+            if(temp.right != null) {
+                temp.right.hd = hd + 1;
+                q.add(temp.right);
+            }
+        }
+
+        for (Map.Entry<Integer,Integer> entry : map.entrySet()) {
+            System.out.print(entry.getValue()+" ");
+        }
+        System.out.println();
+    }
+
+    public  static void topView(TreeNode root){
+
+        Map<Integer, Integer> map = new TreeMap<>();
+        Queue<TreeNode> q = new LinkedList<TreeNode>();
+        root.hd = 0;
+        q.add(root);
+        while(!q.isEmpty()) {
+            TreeNode temp = q.remove();
+            int hd = temp.hd;
+            if(!map.containsKey(hd))map.put(hd, temp.val);
+            if(temp.left != null) {
+                temp.left.hd = hd - 1;
+                q.add(temp.left);
+            }
+            if(temp.right != null) {
+                temp.right.hd = hd + 1;
+                q.add(temp.right);
+            }
+        }
+
+        for (Map.Entry<Integer,Integer> entry : map.entrySet()) {
+            System.out.print(entry.getValue()+" ");
+        }
+        System.out.println();
+    }
+    public static void rootToNodePath(TreeNode root, int find){
+
+        List<Integer> ans=new ArrayList<>();
+        rtn(root,ans,find);
+        for(int val:ans){
+            System.out.print(val+" ");
+        }
+        System.out.println();
+
+    }
+    private static boolean rtn(TreeNode root, List<Integer> ans, int find){
+        if(root==null){
+            return false;
+        }
+
+        ans.add(root.val);
+        if(root.val==find){
+            return true;
+        }
+        if(rtn(root.left,ans,find) || rtn(root.right,ans,find)){
+            return true;
+        }
+
+        ans.remove(ans.size()-1);
+
+        return false;
+    }
+    public static void widthOfTree(TreeNode root){
+        Queue<TreeNode> que=new LinkedList<>();
+        int max=0;
+        que.add(root);
+        while(!que.isEmpty()){
+            int size=que.size();
+            max=Math.max(size,max);
+
+
+            for(int i=0;i<size;i++){
+                TreeNode r=que.poll();
+                if(r==null){
+                    continue;
+                }
+                que.add(r.left);
+                que.add(r.right);
+            }
+        }
+        System.out.println(max);
+    }
 }
