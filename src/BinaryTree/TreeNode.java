@@ -11,6 +11,8 @@ public class TreeNode {
     public int val;
     public int hd;
 
+    public static int diameterTreeNode;
+
     public TreeNode(int val){
         this.val=val;
         this.left=null;
@@ -270,4 +272,130 @@ public class TreeNode {
         }
         System.out.println(max);
     }
+
+    public static void levelOrder(TreeNode root){
+        Queue<TreeNode> levelOrder=new LinkedList<>();
+
+        levelOrder.add(root);
+        while (!levelOrder.isEmpty()){
+            TreeNode l=levelOrder.poll();
+            System.out.print(l.val+" ");
+            if(l.left!=null) levelOrder.add(l.left);
+            if(l.right!=null) levelOrder.add(l.right);
+
+        }
+        System.out.println();
+    }
+
+    public static void height(TreeNode root){
+        System.out.println(h(root));
+    }
+    private static int h(TreeNode root){
+        if(root==null){
+            return 0;
+        }
+        int h1=h(root.left);
+        int h2=h(root.right);
+
+        return Math.max(h1,h2)+1;
+
+    }
+    public static void diameter(TreeNode root){
+            dia(root);
+            System.out.println(diameterTreeNode);
+    }
+
+    private static int dia(TreeNode root){
+        if(root==null){
+            return 0;
+        }
+        int h1=h(root.left);
+        int h2=h(root.right);
+
+        diameterTreeNode=Math.max(h1+h2+1,diameterTreeNode);
+        return Math.max(h1,h2)+1;
+
+    }
+
+    public static void balancedTree(TreeNode root){
+        System.out.println( dfsHeight(root)==-1?"Unbalanced":"Balanced");
+    }
+    private static int dfsHeight(TreeNode root){
+        if(root==null){
+            return 0;
+        }
+        int leftHeight=dfsHeight(root.left);
+        if(leftHeight==-1){
+            return -1;
+        }
+        int rightHeight=dfsHeight(root.right);
+        if(rightHeight==-1){
+            return -1;
+        }
+
+        if(Math.abs(leftHeight-rightHeight)>1){
+            return -1;
+        }
+
+        return Math.max(leftHeight,rightHeight)+1;
+    }
+    public static TreeNode lca(TreeNode root,TreeNode x,TreeNode y){
+        if(root==null || root==x || root==y){
+            return root;
+        }
+        TreeNode left=lca(root.left,x,y);
+        TreeNode right=lca(root.right,x,y);
+        if(left==null || right==null){
+            return left;
+        }else {
+            return root;
+        }
+
+    }
+    public static boolean identicalTree(TreeNode root,TreeNode tree){
+        if(root==null && tree==null){
+            return true;
+        }
+        if(root.val!=tree.val){
+            return false;
+        }
+
+        boolean left=identicalTree(root.left,tree.left);
+        boolean right=identicalTree(root.right,tree.right);
+
+        return left&& right;
+
+    }
+
+    public static void zigZagTravel(TreeNode root){
+        Queue < TreeNode > queue = new LinkedList<>();
+        ArrayList < ArrayList < Integer >> wrapList = new ArrayList < > ();
+
+
+        queue.offer(root);
+        boolean flag = true;
+        while (!queue.isEmpty()) {
+            int levelNum = queue.size();
+            ArrayList < Integer > subList = new ArrayList < Integer > (levelNum);
+            for (int i = 0; i < levelNum; i++) {
+                int index = i;
+                if (queue.peek().left != null) queue.offer(queue.peek().left);
+                if (queue.peek().right != null) queue.offer(queue.peek().right);
+                if (flag == true) subList.add(queue.poll().val);
+                else subList.add(0, queue.poll().val);
+            }
+            flag = !flag;
+            wrapList.add(subList);
+        }
+        for(ArrayList<Integer> val:wrapList){
+            for(int v:val){
+                System.out.print(v+" ");
+            }
+        }
+    }
+    public static void boundaryTraversal(TreeNode root){
+
+    }
+
+
 }
