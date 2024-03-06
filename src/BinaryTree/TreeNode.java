@@ -1,7 +1,5 @@
 package BinaryTree;
 
-import com.sun.source.tree.Tree;
-
 import java.util.*;
 
 public class TreeNode {
@@ -392,10 +390,97 @@ public class TreeNode {
                 System.out.print(v+" ");
             }
         }
+        System.out.println();
     }
     public static void boundaryTraversal(TreeNode root){
 
     }
+    public static void maxPathSum(TreeNode root){
+        int[] n=new int[1];
+        mps(root,n);
+        System.out.println(n[0]);
+    }
+    private static int mps(TreeNode root,int[] maxSum){
+        if(root==null){
+            return 0;
+        }
 
+        int left=mps(root.left,maxSum);
+        int right=mps(root.right,maxSum);
 
+        maxSum[0]=Math.max(left+right+root.val,maxSum[0]);
+
+        return Math.max(left,right)+root.val;
+    }
+
+    public static TreeNode constructTreeUsingInAndPre(int[] inorder,int[] preorder){
+        Map < Integer, Integer > inMap = new HashMap < Integer, Integer > ();
+
+        for (int i = 0; i < inorder.length; i++) {
+            inMap.put(inorder[i], i);
+        }
+
+        return buildTree(preorder, 0, preorder.length - 1, 0,
+                inorder.length - 1, inMap);
+    }
+    private static TreeNode buildTree(int[] preorder, int preStart, int preEnd, int inStart, int inEnd, Map < Integer, Integer > inMap ){
+
+        if (preStart > preEnd || inStart > inEnd ) return null;
+
+        TreeNode root = new TreeNode(preorder[preStart]);
+        int inRoot = inMap.get(root.val);
+
+        int numsLeft = inRoot - inStart;
+
+        root.left = buildTree(preorder, preStart + 1, preStart + numsLeft,
+                inStart, inRoot - 1, inMap);
+        root.right = buildTree(preorder, preStart + numsLeft + 1, preEnd,
+                inRoot + 1, inEnd, inMap);
+
+        return root;
+    }
+    public static TreeNode constructTreeUsingInAndPost(int[] inorder,int[] postorder){
+        Map < Integer, Integer > inMap = new HashMap < Integer, Integer > ();
+
+        for (int i = 0; i < inorder.length; i++) {
+            inMap.put(inorder[i], i);
+        }
+
+        TreeNode root = buildTreepost(postorder, 0, postorder.length - 1, 0,
+                inorder.length - 1, inMap);
+        return root;
+    }
+    private static TreeNode buildTreepost(int[] postorder, int postStart, int postEnd, int inStart, int inEnd, Map < Integer, Integer > inMap ){
+
+        if (postStart > postEnd || inStart > inEnd) return null;
+
+        TreeNode root = new TreeNode(postorder[postEnd]);
+        int inRoot = inMap.get(root.val);
+        int numsLeft = inEnd - inRoot ;
+
+        root.left = buildTreepost(postorder, postStart, postEnd-1-numsLeft ,
+                inStart, inRoot - 1, inMap);
+        root.right = buildTreepost(postorder, postStart , postEnd-1,
+                inRoot + 1, inEnd, inMap);
+
+        return root;
+    }
+
+    public static void symetric(TreeNode root){
+        boolean syme=sym(root,root);
+        System.out.println(syme);
+    }
+    private  static boolean sym(TreeNode l1, TreeNode l2){
+
+        if(l1==null || l2==null){
+            return l1==l2;
+        }
+        if(l1.val!=l2.val){
+            return false;
+        }
+        boolean lsym=sym(l1.left,l2.right);
+        boolean rsym=sym(l1.right,l2.left);
+
+        return lsym && rsym;
+    }
 }

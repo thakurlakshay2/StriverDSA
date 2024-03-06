@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3861e84-90f7-4fae-8c98-fcc0bdfe10e3" name="Changes" comment="[day 21] binary tree">
+    <list default="true" id="d3861e84-90f7-4fae-8c98-fcc0bdfe10e3" name="Changes" comment="[day 23] binary tree">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BinaryTree/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BinaryTree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/TreeNode.java" afterDir="false" />
@@ -52,26 +52,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BinarySearch.Main.executor": "Run",
-    "Application.BinaryTree.Main.executor": "Run",
-    "Application.GreedyAlgorithm.Main.executor": "Run",
-    "Application.Heaps.Main.executor": "Run",
-    "Application.LinkedList.Main.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Recursion.Main.executor": "Run",
-    "Application.StacknQueue.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/macbookpro/Desktop/DSA/StriverDSA",
-    "onboarding.tips.debug.path": "D:/Striver/DSA/src/Main.java",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BinarySearch.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BinaryTree.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GreedyAlgorithm.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Heaps.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinkedList.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Recursion.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StacknQueue.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/macbookpro/Desktop/DSA/StriverDSA&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Striver/DSA/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.BinaryTree.Main">
     <configuration name="BinarySearch.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinarySearch.Main" />
@@ -332,7 +332,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709225990988</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="[day 22] binary tree">
+      <option name="closed" value="true" />
+      <created>1709316740584</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1709316740584</updated>
+    </task>
+    <task id="LOCAL-00023" summary="[day 23] binary tree">
+      <option name="closed" value="true" />
+      <created>1709454189694</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1709454189694</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -368,7 +384,9 @@
     <MESSAGE value="[day 19] string" />
     <MESSAGE value="[day 20] string" />
     <MESSAGE value="[day 21] binary tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="[day 21] binary tree" />
+    <MESSAGE value="[day 22] binary tree" />
+    <MESSAGE value="[day 23] binary tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="[day 23] binary tree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
