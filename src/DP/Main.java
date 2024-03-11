@@ -19,5 +19,18 @@ public class Main {
 
         MaximumSumIncreasingubsequence q6=new MaximumSumIncreasingubsequence();
         q6.msIS(new int[]{1,100,2,3,100});
+
+        MinimumPathSum q7=new MinimumPathSum();
+        q7.MPS(new int[][]{ {5, 9, 6},
+                {11, 5, 2}});
+
+        CoinChange q8=new CoinChange();
+        q8.CC(new int[]{1,2,3}, 4);
+
+        SubSetSum q9=new SubSetSum();
+        q9.ssSum(new int[]{1,2,3,4},4);
+
+        RodCuttingProblem q10=new RodCuttingProblem();
+        q10.rcProblem(new int[]{2,4,6},new int[]{5,11,13},10);
     }
 }
