@@ -13,5 +13,11 @@ public class Main {
 
         Knapsack q4=new Knapsack();
         q4.knapsack01(new int[]{1, 2, 4, 5}, new int[]{5,4,8,6}, 5);
+
+        EditDistance q5=new EditDistance();
+        q5.editDistance("horse","ros");
+
+        MaximumSumIncreasingubsequence q6=new MaximumSumIncreasingubsequence();
+        q6.msIS(new int[]{1,100,2,3,100});
     }
 }
