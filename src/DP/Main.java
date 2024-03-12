@@ -32,5 +32,11 @@ public class Main {
 
         RodCuttingProblem q10=new RodCuttingProblem();
         q10.rcProblem(new int[]{2,4,6},new int[]{5,11,13},10);
+
+        EggDroppingPuzzle q11=new EggDroppingPuzzle();
+        q11.eddDrop(3,5);
+
+        WordBreak q12=new WordBreak();
+        q12.wb(new String[]{"leet","code"},"leetcode");
     }
 }

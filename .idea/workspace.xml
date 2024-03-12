@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3861e84-90f7-4fae-8c98-fcc0bdfe10e3" name="Changes" comment="[day 26] dp">
-      <change afterPath="$PROJECT_DIR$/src/DP/CoinChange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP/MinimumPathSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP/RodCuttingProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP/SubSetSum.java" afterDir="false" />
+    <list default="true" id="d3861e84-90f7-4fae-8c98-fcc0bdfe10e3" name="Changes" comment="[day 27] dp">
+      <change afterPath="$PROJECT_DIR$/src/DP/EggDroppingPuzzle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/PallindromePartitioning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/WordBreak.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DP/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DP/Main.java" afterDir="false" />
     </list>
@@ -376,7 +375,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710138774042</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="[day 27] dp">
+      <option name="closed" value="true" />
+      <created>1710177614015</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1710177614015</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -391,7 +398,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[init] Striver sheet day 2" />
     <MESSAGE value="workspace xml update" />
     <MESSAGE value="[day 4] arrays" />
     <MESSAGE value="[day 5] arrays" />
@@ -416,7 +422,8 @@
     <MESSAGE value="[day 24] binary tree" />
     <MESSAGE value="[day 25] dp" />
     <MESSAGE value="[day 26] dp" />
-    <option name="LAST_COMMIT_MESSAGE" value="[day 26] dp" />
+    <MESSAGE value="[day 27] dp" />
+    <option name="LAST_COMMIT_MESSAGE" value="[day 27] dp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
