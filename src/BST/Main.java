@@ -1,5 +1,7 @@
 package BST;
 
+import static BST.BinarySearchTree.floorOfBST;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -9,8 +11,12 @@ public class Main {
         SeatchInaBST q1=new SeatchInaBST();
         System.out.println(q1.searchBST(tree,5));
 
+        BinarySearchTree.floorOfBST(tree);
+        BinarySearchTree.ceilNF(tree);
+        BinarySearchTree.kthSmallest(tree,4);BinarySearchTree.kthLargest(tree,4);
         CheckBST q2=new CheckBST();
         System.out.println(q2.check(tree));
+
     }
 
 }
