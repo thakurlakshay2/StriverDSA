@@ -1,5 +1,7 @@
 package Strings;
 
+
+//BASED ON RABIN KARP ALGORITHM
 //https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/
 public class RepeatedStringMatch {
     private final static int d = 256;

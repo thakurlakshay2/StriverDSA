@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3861e84-90f7-4fae-8c98-fcc0bdfe10e3" name="Changes" comment="[day 29] BST">
+    <list default="true" id="d3861e84-90f7-4fae-8c98-fcc0bdfe10e3" name="Changes" comment="[day 30] BST">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BST/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BST/BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BST/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BST/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -398,7 +396,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710696166275</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="[day 30] BST">
+      <option name="closed" value="true" />
+      <created>1711560997902</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1711560997902</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -413,7 +419,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[day 5] arrays" />
     <MESSAGE value="[day 6] arrays" />
     <MESSAGE value="[day 7] LinkedList" />
     <MESSAGE value="[day 8] LinkedList" />
@@ -438,7 +443,8 @@
     <MESSAGE value="[day 27] dp" />
     <MESSAGE value="[day 28] dp" />
     <MESSAGE value="[day 29] BST" />
-    <option name="LAST_COMMIT_MESSAGE" value="[day 29] BST" />
+    <MESSAGE value="[day 30] BST" />
+    <option name="LAST_COMMIT_MESSAGE" value="[day 30] BST" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
