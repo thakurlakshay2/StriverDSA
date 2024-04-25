@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3861e84-90f7-4fae-8c98-fcc0bdfe10e3" name="Changes" comment="[day 30] BST">
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/FindPeakElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/KokoEatingBananas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/MinimizeMaxGasStation.java" afterDir="false" />
+    <list default="true" id="d3861e84-90f7-4fae-8c98-fcc0bdfe10e3" name="Changes" comment="[init] Striver sheet day 2">
+      <change afterPath="$PROJECT_DIR$/src/Arrays/ReversePairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/FlattenaLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StacknQueue/SortAStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearch/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrays/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StacknQueue/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StacknQueue/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,20 +27,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;thakurlakshay2&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="bec21ae4-48b0-43c2-9d10-0bbf705d2c4a" />
-        <option name="url" value="https://github.com/thakurlakshay2/StriverDSA.git" />
-      </UrlAndAccount>
-    </option>
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -47,94 +34,30 @@
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="2barH3bx4En3zui1DukJajvfj80" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BST.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BinarySearch.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BinaryTree.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DP.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GreedyAlgorithm.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Heaps.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinkedList.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Recursion.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StacknQueue.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/macbookpro/Desktop/DSA/StriverDSA&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Striver/DSA/src/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.StacknQueue.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "D:/Striver/DSA/src/Main.java"
   }
-}</component>
-  <component name="RunManager" selected="Application.BinarySearch.Main">
-    <configuration name="BST.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BST.Main" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BST.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BinarySearch.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinarySearch.Main" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BinarySearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BinaryTree.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinaryTree.Main" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BinaryTree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DP.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DP.Main" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}]]></component>
+  <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.Main" />
+      <option name="MAIN_CLASS_NAME" value="Arrays.Main" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.*" />
+          <option name="PATTERN" value="Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,10 +67,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BinarySearch.Main" />
-        <item itemvalue="Application.BST.Main" />
-        <item itemvalue="Application.DP.Main" />
-        <item itemvalue="Application.BinaryTree.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -155,7 +74,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-16.0.2-azul-16.0.2-4caba194b151-e0d2a9f8" />
+        <option value="jdk-16.0.2-corretto-16.0.2-4caba194b151-cab9e76a" />
       </set>
     </attachedChunks>
   </component>
@@ -184,271 +103,13 @@
       <option name="project" value="LOCAL" />
       <updated>1706554484484</updated>
     </task>
-    <task id="LOCAL-00003" summary="workspace xml update">
-      <option name="closed" value="true" />
-      <created>1706774040586</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1706774040586</updated>
-    </task>
-    <task id="LOCAL-00004" summary="[day 4] arrays">
-      <option name="closed" value="true" />
-      <created>1706806903136</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1706806903136</updated>
-    </task>
-    <task id="LOCAL-00005" summary="[day 5] arrays">
-      <option name="closed" value="true" />
-      <created>1706893339563</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1706893339563</updated>
-    </task>
-    <task id="LOCAL-00006" summary="[day 6] arrays">
-      <option name="closed" value="true" />
-      <created>1707038228335</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1707038228335</updated>
-    </task>
-    <task id="LOCAL-00007" summary="[day 7] LinkedList">
-      <option name="closed" value="true" />
-      <created>1707138544836</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1707138544836</updated>
-    </task>
-    <task id="LOCAL-00008" summary="[day 8] LinkedList">
-      <option name="closed" value="true" />
-      <created>1707241766563</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1707241766563</updated>
-    </task>
-    <task id="LOCAL-00009" summary="[day 9] LinkedList and Array">
-      <option name="closed" value="true" />
-      <created>1707306588380</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1707306588381</updated>
-    </task>
-    <task id="LOCAL-00010" summary="[day 10] Greedy Algorithm">
-      <option name="closed" value="true" />
-      <created>1707404248209</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1707404248209</updated>
-    </task>
-    <task id="LOCAL-00011" summary="[day 11] Recursion">
-      <option name="closed" value="true" />
-      <created>1707486395292</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1707486395292</updated>
-    </task>
-    <task id="LOCAL-00012" summary="[day 12] Recursion">
-      <option name="closed" value="true" />
-      <created>1707563329003</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1707563329003</updated>
-    </task>
-    <task id="LOCAL-00013" summary="[day 13] Binary Search">
-      <option name="closed" value="true" />
-      <created>1707747276606</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1707747276606</updated>
-    </task>
-    <task id="LOCAL-00014" summary="[day 14] Heaps">
-      <option name="closed" value="true" />
-      <created>1707834557888</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1707834557888</updated>
-    </task>
-    <task id="LOCAL-00015" summary="[day 15] stack and queue">
-      <option name="closed" value="true" />
-      <created>1708017060205</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1708017060205</updated>
-    </task>
-    <task id="LOCAL-00016" summary="[day 16] stack and queue , LRU TBD">
-      <option name="closed" value="true" />
-      <created>1708100702121</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1708100702121</updated>
-    </task>
-    <task id="LOCAL-00017" summary="[day 17] stack and queue">
-      <option name="closed" value="true" />
-      <created>1708240229363</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1708240229363</updated>
-    </task>
-    <task id="LOCAL-00018" summary="[day 18] string">
-      <option name="closed" value="true" />
-      <created>1708395986680</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1708395986680</updated>
-    </task>
-    <task id="LOCAL-00019" summary="[day 19] string">
-      <option name="closed" value="true" />
-      <created>1708443900604</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1708443900604</updated>
-    </task>
-    <task id="LOCAL-00020" summary="[day 20] string">
-      <option name="closed" value="true" />
-      <created>1708537758391</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1708537758391</updated>
-    </task>
-    <task id="LOCAL-00021" summary="[day 21] binary tree">
-      <option name="closed" value="true" />
-      <created>1709225990988</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1709225990988</updated>
-    </task>
-    <task id="LOCAL-00022" summary="[day 22] binary tree">
-      <option name="closed" value="true" />
-      <created>1709316740584</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1709316740584</updated>
-    </task>
-    <task id="LOCAL-00023" summary="[day 23] binary tree">
-      <option name="closed" value="true" />
-      <created>1709454189694</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1709454189694</updated>
-    </task>
-    <task id="LOCAL-00024" summary="[day 24] binary tree">
-      <option name="closed" value="true" />
-      <created>1709746450556</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1709746450556</updated>
-    </task>
-    <task id="LOCAL-00025" summary="[day 25] dp">
-      <option name="closed" value="true" />
-      <created>1709921548836</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1709921548836</updated>
-    </task>
-    <task id="LOCAL-00026" summary="[day 26] dp">
-      <option name="closed" value="true" />
-      <created>1710138774042</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1710138774042</updated>
-    </task>
-    <task id="LOCAL-00027" summary="[day 27] dp">
-      <option name="closed" value="true" />
-      <created>1710177614015</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1710177614015</updated>
-    </task>
-    <task id="LOCAL-00028" summary="[day 28] dp">
-      <option name="closed" value="true" />
-      <created>1710263632916</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1710263632916</updated>
-    </task>
-    <task id="LOCAL-00029" summary="[day 29] BST">
-      <option name="closed" value="true" />
-      <created>1710696166275</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1710696166275</updated>
-    </task>
-    <task id="LOCAL-00030" summary="[day 30] BST">
-      <option name="closed" value="true" />
-      <created>1711560997902</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1711560997902</updated>
-    </task>
-    <option name="localTasksCounter" value="31" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[day 6] arrays" />
-    <MESSAGE value="[day 7] LinkedList" />
-    <MESSAGE value="[day 8] LinkedList" />
-    <MESSAGE value="[day 9] LinkedList and Array" />
-    <MESSAGE value="[day 10] Greedy Algorithm" />
-    <MESSAGE value="[day 11] Recursion" />
-    <MESSAGE value="[day 12] Recursion" />
-    <MESSAGE value="[day 13] Binary Search" />
-    <MESSAGE value="[day 14] Heaps" />
-    <MESSAGE value="[day 15] stack and queue" />
-    <MESSAGE value="[day 16] stack and queue , LRU TBD" />
-    <MESSAGE value="[day 17] stack and queue" />
-    <MESSAGE value="[day 18] string" />
-    <MESSAGE value="[day 19] string" />
-    <MESSAGE value="[day 20] string" />
-    <MESSAGE value="[day 21] binary tree" />
-    <MESSAGE value="[day 22] binary tree" />
-    <MESSAGE value="[day 23] binary tree" />
-    <MESSAGE value="[day 24] binary tree" />
-    <MESSAGE value="[day 25] dp" />
-    <MESSAGE value="[day 26] dp" />
-    <MESSAGE value="[day 27] dp" />
-    <MESSAGE value="[day 28] dp" />
-    <MESSAGE value="[day 29] BST" />
-    <MESSAGE value="[day 30] BST" />
-    <option name="LAST_COMMIT_MESSAGE" value="[day 30] BST" />
+    <MESSAGE value="[init] Striver sheet" />
+    <MESSAGE value="[init] Striver sheet day 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="[init] Striver sheet day 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -457,15 +118,6 @@
           <url>file://$PROJECT_DIR$/src/Main.java</url>
           <line>11</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/Arrays/RepeatingAndMissingNumber.java</url>
-          <line>8</line>
-          <properties class="Arrays.RepeatingAndMissingNumber" method="repeatingAndMissingNumberBrute">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
