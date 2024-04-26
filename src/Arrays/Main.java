@@ -2,10 +2,11 @@ package Arrays;
 
 public class Main {
     public static void main(String[] args) {
-//        NextPermutation q1=new NextPermutation();
-//        int[] arr1={1,2,3,4,5,6,5,4,3,2,1};
-//         q1.nextPermutationSolve(arr1);
-//        PrintSolution.print(arr1);
+        NextPermutation q1=new NextPermutation();
+        int[] arr1={1,2,3,4,5,6,5,4,3,2,1};
+         q1.nextPermutationSolve(arr1);
+        PrintSolution.print(arr1);
+        System.out.println();
 //
 //        SetMatrixZeroes q2=new SetMatrixZeroes();
 //        int[][] arr2={{1,1,1},{1,0,1},{1,1,0}};

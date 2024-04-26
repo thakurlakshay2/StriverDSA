@@ -1,12 +1,15 @@
 package BinarySearch;
 
 public class SearchPivotInSortedArray {
-    //simple algo in linear search
+    //simple algo in linear search time: o(n)  , space o(1)
     public void pivotSortedSearch(int[] nums,int k){
         binarySearch(nums,k);
     }
 
     //BUG  FIX REQUIRED . stack overflow error
+
+    //time: O(log(n))
+    // space O(1)
     private void binarySearch(int[] nums,int k){
         int lo=0;
         int hi=nums.length-1;
