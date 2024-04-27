@@ -1,10 +1,26 @@
 package LinkedList;
 
-
-//https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/
+//https://takeuforward.org/data-structure/remove-n-th-node-from-the-end-of-a-linked-list/
 public class RemoveNthNodeFromEnd {
 
     //Unoptimised approach will be to travel the Linked List twice
+
+    public void removeNodeBrute(LL head,int n){
+
+        int length=Length.lengthLL(head);
+        int front=length-n;
+        LL travel=head;
+        while (front>0){
+
+            travel=travel.next;
+            front--;
+        }
+        if(travel.next!= null ){
+            travel=travel.next.next;
+        }
+
+
+    }
     public void removeNthNodeFromEndOptimised(LL head,int n){
         LL slow=head;
         LL fast=head;

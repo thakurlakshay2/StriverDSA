@@ -3,6 +3,7 @@ package BinaryTree;
 import com.sun.source.tree.Tree;
 
 public class Main {
+    //all the questions are in one file only
     public static void main(String[] args) {
 
         TreeNode tree=TreeNode.createTree(new int[]{1,2,3,4,5,6,7,8,9,10,11,12,13});

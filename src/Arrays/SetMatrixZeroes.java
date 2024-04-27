@@ -47,6 +47,9 @@ public class SetMatrixZeroes {
         return;
     }
 
+
+    //we can also use matrix itself for row and col operations , of 0 , just need O(1) space extra for
+    //overlapping
     protected void setZeroesOptimised(int[][] matrix) {
         if(matrix.length==0) return ;
         int[] row=new int[matrix.length];

@@ -337,6 +337,8 @@ public class TreeNode {
 
         return Math.max(leftHeight,rightHeight)+1;
     }
+
+    //lowest common ancestor
     public static TreeNode lca(TreeNode root,TreeNode x,TreeNode y){
         if(root==null || root==x || root==y){
             return root;
@@ -350,6 +352,7 @@ public class TreeNode {
         }
 
     }
+
     public static boolean identicalTree(TreeNode root,TreeNode tree){
         if(root==null && tree==null){
             return true;

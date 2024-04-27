@@ -2,10 +2,12 @@ package LinkedList;
 
 //https://takeuforward.org/data-structure/find-intersection-of-two-linked-lists/
 public class FindIntersectionNode {
-    //Brute solution O(m*n) basically vist every node in li , the move one node ahead in l2 , then do same until u get common node.
+    //Brute solution O(m*n) basically visit every node in ll , the move one node ahead in l2 ,
+    // then do same until u get common node.
 
     //Difference in length
     //assuming l1 > l2
+    //time O(m+n)
     public void findIntersection(LL l1, LL l2){
         int length1=Length.lengthLL(l1);
         int length2=Length.lengthLL(l2);
