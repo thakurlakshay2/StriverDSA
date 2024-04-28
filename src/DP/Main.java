@@ -1,5 +1,7 @@
 package DP;
 
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         maximumProductSubarray q1=new maximumProductSubarray();
@@ -38,5 +40,14 @@ public class Main {
 
         WordBreak q12=new WordBreak();
         q12.wb(new String[]{"leet","code"},"leetcode");
+
+        ClimbingStairs q13=new ClimbingStairs();
+        System.out.println(q13.travel(5));
+
+        FrogJump  q14=new FrogJump();
+        System.out.println(q14.travel(new int[]{10,20,30,10},4));
+
+        HouseRobber   q15=new HouseRobber();
+        q15.robStreet(9, new int[]{1,2,3,1,3,5,8,1,9});
     }
 }
