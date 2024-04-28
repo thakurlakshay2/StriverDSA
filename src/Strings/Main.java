@@ -1,5 +1,8 @@
 package Strings;
 
+import DP.LongestPallindromicSubstring;
+import DP.MinimumCharacterForPallindrome;
+
 public class Main {
     public static void main(String[] args) {
         ReverseAString q1=new ReverseAString();

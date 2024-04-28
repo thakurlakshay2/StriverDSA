@@ -49,5 +49,11 @@ public class Main {
 
         HouseRobber   q15=new HouseRobber();
         q15.robStreet(9, new int[]{1,2,3,1,3,5,8,1,9});
+
+        GridUniquePath q16=new GridUniquePath();
+        q16.countWays(3,2);
+
+        WildCardMatching q17=new WildCardMatching();
+        q17.isWideCardMatching("ab*cd","abdefcd");
     }
 }

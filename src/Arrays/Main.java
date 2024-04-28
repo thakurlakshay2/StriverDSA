@@ -110,5 +110,7 @@ public class Main {
         ReversePairs q28=new ReversePairs();
         q28.reversePairs(new int[]{3,2,1,4,5,2,6,1,8});
 
+        LongestSubSegmentOfOneAndZero q29=new LongestSubSegmentOfOneAndZero();
+        q29.ZeroOne(new int[]{1,0,0,1,0,1,1,0,1,1,0,0,1} , 4);
     }
 }
