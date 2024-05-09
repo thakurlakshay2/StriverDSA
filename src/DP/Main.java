@@ -55,5 +55,8 @@ public class Main {
 
         WildCardMatching q17=new WildCardMatching();
         q17.isWideCardMatching("ab*cd","abdefcd");
+
+        JobScheduling q18=new JobScheduling();
+        q18.jobScheduling(new int[]{1,1,1},new int[]{1,2,3}, new int[]{5,6,3});
     }
 }
