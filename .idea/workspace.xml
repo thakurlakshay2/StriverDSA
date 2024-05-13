@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3861e84-90f7-4fae-8c98-fcc0bdfe10e3" name="Changes" comment="[day 36] 2 dp MCM questions">
-      <change afterPath="$PROJECT_DIR$/src/DP/JobScheduling.java" afterDir="false" />
+    <list default="true" id="d3861e84-90f7-4fae-8c98-fcc0bdfe10e3" name="Changes" comment="[day 37]  dp  questions">
+      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/FruitsInBasket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/LengthOfLongestSubstringWIthoutRepeatingCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/LongestRepeatingCHaraterReplacement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DP/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DP/Main.java" afterDir="false" />
     </list>
@@ -140,7 +142,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714927719141</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="[day 37]  dp  questions">
+      <option name="closed" value="true" />
+      <created>1715271141939</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1715271141939</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -151,7 +161,8 @@
     <MESSAGE value="[day 34] dp" />
     <MESSAGE value="[day 35] dp difficult" />
     <MESSAGE value="[day 36] 2 dp MCM questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="[day 36] 2 dp MCM questions" />
+    <MESSAGE value="[day 37]  dp  questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="[day 37]  dp  questions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
