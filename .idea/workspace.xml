@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3861e84-90f7-4fae-8c98-fcc0bdfe10e3" name="Changes" comment="[day 40].1 sliding window questions">
-      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/MaximumPointsYouCanObtainFromCards.java" afterDir="false" />
+    <list default="true" id="d3861e84-90f7-4fae-8c98-fcc0bdfe10e3" name="Changes" comment="[day 40].2 sliding window questions">
+      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/SubArraysWithKDifferentIntegers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SlidingWindow/NumberOfSubstringCOntainingALlThreeCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SlidingWindow/NumberOfSubstringCOntainingALlThreeCharacter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +171,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715789630177</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="[day 40].2 sliding window questions">
+      <option name="closed" value="true" />
+      <created>1715789858593</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1715789858593</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -187,7 +194,8 @@
     <MESSAGE value="[day 38]  sliding window questions" />
     <MESSAGE value="[day 39]  sliding window questions" />
     <MESSAGE value="[day 40].1 sliding window questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="[day 40].1 sliding window questions" />
+    <MESSAGE value="[day 40].2 sliding window questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="[day 40].2 sliding window questions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
