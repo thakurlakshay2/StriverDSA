@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3861e84-90f7-4fae-8c98-fcc0bdfe10e3" name="Changes" comment="[day 41] sliding window questions last day">
-      <change afterPath="$PROJECT_DIR$/src/BitManiipulation/CountNumberOfBitsFlippedFromAToB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BitManiipulation/DivideTwoIntegerWithoutUsingMultiplication.java" afterDir="false" />
+    <list default="true" id="d3861e84-90f7-4fae-8c98-fcc0bdfe10e3" name="Changes" comment="[day 41] Bit manipulation">
+      <change afterPath="$PROJECT_DIR$/src/BitManiipulation/PrimeFactors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BitManiipulation/SingleNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,20 +36,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.DivideTwoIntegerWithoutUsingMultiplication.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MinimumWindowSubstring.executor": "Run",
-    "Application.StacknQueue.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "D:/Striver/DSA/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CountNumberOfBitsFlippedFromAToB.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DivideTwoIntegerWithoutUsingMultiplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinimumWindowSubstring.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StacknQueue.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Striver/DSA/src/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Arrays.Main" />
@@ -198,7 +199,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715874747494</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="[day 41] Bit manipulation">
+      <option name="closed" value="true" />
+      <created>1715875547350</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1715875547350</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -216,7 +225,8 @@
     <MESSAGE value="[day 40].2 sliding window questions" />
     <MESSAGE value="[day 40].3 sliding window questions" />
     <MESSAGE value="[day 41] sliding window questions last day" />
-    <option name="LAST_COMMIT_MESSAGE" value="[day 41] sliding window questions last day" />
+    <MESSAGE value="[day 41] Bit manipulation" />
+    <option name="LAST_COMMIT_MESSAGE" value="[day 41] Bit manipulation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
