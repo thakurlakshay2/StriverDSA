@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3861e84-90f7-4fae-8c98-fcc0bdfe10e3" name="Changes" comment="[day 43] Bit manipulation">
-      <change afterPath="$PROJECT_DIR$/src/BitManiipulation/AllDivisorsForaNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BitManiipulation/SieveofEratosthenes.java" afterDir="false" />
+    <list default="true" id="d3861e84-90f7-4fae-8c98-fcc0bdfe10e3" name="Changes" comment="[day 43] .2 Bit manipulation">
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/FindPeakElement2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -223,7 +222,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716309505974</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="[day 43] .2 Bit manipulation">
+      <option name="closed" value="true" />
+      <created>1716310037784</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1716310037784</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -244,7 +251,8 @@
     <MESSAGE value="[day 41] Bit manipulation" />
     <MESSAGE value="[day 42] Bit manipulation" />
     <MESSAGE value="[day 43] Bit manipulation" />
-    <option name="LAST_COMMIT_MESSAGE" value="[day 43] Bit manipulation" />
+    <MESSAGE value="[day 43] .2 Bit manipulation" />
+    <option name="LAST_COMMIT_MESSAGE" value="[day 43] .2 Bit manipulation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
