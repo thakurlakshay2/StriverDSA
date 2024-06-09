@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3861e84-90f7-4fae-8c98-fcc0bdfe10e3" name="Changes" comment="[day 44] 1 different question for binary">
-      <change afterPath="$PROJECT_DIR$/src/Strings/ReverseAllWordsInAString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/SumOfBeautyOfAllStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/LongestHappyPrefix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/RabinKarpAlgo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,21 +36,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.CountNumberOfBitsFlippedFromAToB.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DivideTwoIntegerWithoutUsingMultiplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MinimumWindowSubstring.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StacknQueue.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Striver/DSA/src/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CountNumberOfBitsFlippedFromAToB.executor": "Run",
+    "Application.DivideTwoIntegerWithoutUsingMultiplication.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MinimumWindowSubstring.executor": "Run",
+    "Application.RabinKarpAlgo.executor": "Run",
+    "Application.StacknQueue.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "D:/Striver/DSA/src/Main.java"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Arrays.Main" />
