@@ -1,4 +1,4 @@
-package DP;
+package DynamicProgramming;
 
 
 //https://takeuforward.org/data-structure/dynamic-programming-climbing-stairs/

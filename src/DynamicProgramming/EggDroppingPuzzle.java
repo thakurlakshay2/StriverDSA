@@ -1,4 +1,4 @@
-package DP;
+package DynamicProgramming;
 
 public class EggDroppingPuzzle {
     public void eddDrop(int a,int b){

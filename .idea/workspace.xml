@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3861e84-90f7-4fae-8c98-fcc0bdfe10e3" name="Changes" comment="[day 35] 1D dp">
-      <change afterPath="$PROJECT_DIR$/src/Arrays/LongestSubSegmentOfOneAndZero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP/GridUniquePath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP/NinjaTraining.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP/WildCardMatching.java" afterDir="false" />
+    <list default="true" id="d3861e84-90f7-4fae-8c98-fcc0bdfe10e3" name="Changes" comment="[day 35] 2D dp and dp subsequence">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DP/HouseRobber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DP/HouseRobber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DP/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DP/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DP/MinimumPathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DP/MinimumPathSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strings/LongestPallindromicSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DP/LongestPallindromicSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strings/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strings/MinimumCharacterForPallindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DP/MinimumCharacterForPallindrome.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,12 +22,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "thakurlakshay2"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;thakurlakshay2&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -61,19 +50,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.DP.Main.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.StacknQueue.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "D:/Striver/DSA/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.DP.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StacknQueue.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Striver/DSA/src/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Arrays.Main" />
@@ -97,7 +86,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-16.0.2-corretto-16.0.2-4caba194b151-cab9e76a" />
+        <option value="jdk-16.0.2-azul-16.0.2-4caba194b151-e0d2a9f8" />
       </set>
     </attachedChunks>
   </component>
@@ -142,7 +131,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714299891188</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="[day 35] 2D dp and dp subsequence">
+      <option name="closed" value="true" />
+      <created>1714313697091</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714313697091</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -150,7 +147,8 @@
     <MESSAGE value="[init] Striver sheet day 2" />
     <MESSAGE value="[day 34] revision" />
     <MESSAGE value="[day 35] 1D dp" />
-    <option name="LAST_COMMIT_MESSAGE" value="[day 35] 1D dp" />
+    <MESSAGE value="[day 35] 2D dp and dp subsequence" />
+    <option name="LAST_COMMIT_MESSAGE" value="[day 35] 2D dp and dp subsequence" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

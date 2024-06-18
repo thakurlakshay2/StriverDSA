@@ -1,6 +1,4 @@
-package DP;
-
-import Arrays.PrintSolution;
+package DynamicProgramming;
 
 //https://takeuforward.org/data-structure/coin-change-2-dp-22/
 public class CoinChange {

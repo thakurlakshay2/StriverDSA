@@ -1,4 +1,4 @@
-package DP;
+package DynamicProgramming;
 
 //https://takeuforward.org/data-structure/grid-unique-paths-dp-on-grids-dp8/
 public class GridUniquePath {

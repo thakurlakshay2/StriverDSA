@@ -1,4 +1,4 @@
-package DP;
+package DynamicProgramming;
 
 public class LCS {
     public void longestCommonSubs(String s1,String s2){

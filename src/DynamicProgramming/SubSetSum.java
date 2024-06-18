@@ -1,4 +1,4 @@
-package DP;
+package DynamicProgramming;
 
 public class SubSetSum {
     public void ssSum(int[] num,int target){

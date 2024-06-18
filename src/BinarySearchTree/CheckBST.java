@@ -1,4 +1,4 @@
-package BST;
+package BinarySearchTree;
 
 public class CheckBST {
 

@@ -1,4 +1,4 @@
-package BST;
+package BinarySearchTree;
 
 import java.util.LinkedList;
 

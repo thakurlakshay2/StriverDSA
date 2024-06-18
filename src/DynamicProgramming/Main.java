@@ -1,6 +1,4 @@
-package DP;
-
-import java.util.Arrays;
+package DynamicProgramming;
 
 public class Main {
     public static void main(String[] args) {

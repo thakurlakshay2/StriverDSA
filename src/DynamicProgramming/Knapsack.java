@@ -1,4 +1,4 @@
-package DP;
+package DynamicProgramming;
 
 //https://takeuforward.org/data-structure/0-1-knapsack-dp-19/
 public class Knapsack {

@@ -1,4 +1,4 @@
-package DP;
+package DynamicProgramming;
 
 //https://www.geeksforgeeks.org/minimum-characters-added-front-make-string-palindrome/
 //lpa

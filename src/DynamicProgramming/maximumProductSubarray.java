@@ -1,4 +1,4 @@
-package DP;
+package DynamicProgramming;
 
 //https://takeuforward.org/data-structure/maximum-product-subarray-in-an-array/
 public class maximumProductSubarray {

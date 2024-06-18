@@ -1,7 +1,6 @@
-package DP;
+package DynamicProgramming;
 
 import java.util.Arrays;
-import java.util.Map;
 
 //https://takeuforward.org/data-structure/dynamic-programming-ninjas-training-dp-7/
 public class NinjaTraining {

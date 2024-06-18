@@ -1,7 +1,6 @@
-package DP;
+package DynamicProgramming;
 
 import java.util.Arrays;
-import java.util.Map;
 
 //https://takeuforward.org/data-structure/dynamic-programming-frog-jump-with-k-distances-dp-4/
 public class FrogJumpKDistance {

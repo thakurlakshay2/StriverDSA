@@ -1,6 +1,4 @@
-package BST;
-
-import static BST.BinarySearchTree.floorOfBST;
+package BinarySearchTree;
 
 public class Main {
 

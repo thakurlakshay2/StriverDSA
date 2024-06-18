@@ -1,4 +1,4 @@
-package DP;
+package DynamicProgramming;
 
 //https://takeuforward.org/data-structure/wildcard-matching-dp-34/
 public class WildCardMatching {

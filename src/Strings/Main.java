@@ -1,7 +1,7 @@
 package Strings;
 
-import DP.LongestPallindromicSubstring;
-import DP.MinimumCharacterForPallindrome;
+import DynamicProgramming.LongestPallindromicSubstring;
+import DynamicProgramming.MinimumCharacterForPallindrome;
 
 public class Main {
     public static void main(String[] args) {
