@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3861e84-90f7-4fae-8c98-fcc0bdfe10e3" name="Changes" comment="[day 45] trie">
-      <change afterPath="$PROJECT_DIR$/src/Trie/MaxXORWithElementFromArray.java" afterDir="false" />
+    <list default="true" id="d3861e84-90f7-4fae-8c98-fcc0bdfe10e3" name="Changes" comment="[day 44] trie difficult important concept">
+      <change afterPath="$PROJECT_DIR$/src/Graph/CheapestFlightsWithinKStops.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -156,7 +156,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718820063448</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="[day 44] trie difficult important concept">
+      <option name="closed" value="true" />
+      <created>1718992257037</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1718992257037</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -190,7 +198,8 @@
     <MESSAGE value="[day 35] 2D dp and dp subsequence" />
     <MESSAGE value="[day 44] better naming conventions." />
     <MESSAGE value="[day 45] trie" />
-    <option name="LAST_COMMIT_MESSAGE" value="[day 45] trie" />
+    <MESSAGE value="[day 44] trie difficult important concept" />
+    <option name="LAST_COMMIT_MESSAGE" value="[day 44] trie difficult important concept" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
