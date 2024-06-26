@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3861e84-90f7-4fae-8c98-fcc0bdfe10e3" name="Changes" comment="[day 46] topological bfs and dfs solution">
-      <change afterPath="$PROJECT_DIR$/src/TwoPointerApproachIIIIIIIIIIGreedy/CheckIfAParenthesesStringCanBeValid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoPointerApproachIIIIIIIIIIGreedy/ValidParenthesisString.java" afterDir="false" />
+    <list default="true" id="d3861e84-90f7-4fae-8c98-fcc0bdfe10e3" name="Changes" comment="[day 47] two Pointer and greedy">
+      <change afterPath="$PROJECT_DIR$/src/Graph/BellManFordAlgo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graph/FloydWarshallAlgo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -184,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719242624567</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="[day 47] two Pointer and greedy">
+      <option name="closed" value="true" />
+      <created>1719331962237</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1719331962237</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -221,7 +229,8 @@
     <MESSAGE value="[day 44] trie difficult important concept" />
     <MESSAGE value="[day 45]graph, time and space efficient solution" />
     <MESSAGE value="[day 46] topological bfs and dfs solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="[day 46] topological bfs and dfs solution" />
+    <MESSAGE value="[day 47] two Pointer and greedy" />
+    <option name="LAST_COMMIT_MESSAGE" value="[day 47] two Pointer and greedy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
