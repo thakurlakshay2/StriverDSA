@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3861e84-90f7-4fae-8c98-fcc0bdfe10e3" name="Changes" comment="[day 48] bellman ford , and floyd algo">
-      <change afterPath="$PROJECT_DIR$/src/Graph/ArticulationPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graph/KosaRajuAlgorithm.java" afterDir="false" />
+    <list default="true" id="d3861e84-90f7-4fae-8c98-fcc0bdfe10e3" name="Changes" comment="[day 49] kosaraju and articulation point">
+      <change afterPath="$PROJECT_DIR$/src/Graph/Bipartite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -200,7 +199,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719423070601</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="[day 49] kosaraju and articulation point">
+      <option name="closed" value="true" />
+      <created>1719594731349</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1719594731349</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -239,7 +246,8 @@
     <MESSAGE value="[day 46] topological bfs and dfs solution" />
     <MESSAGE value="[day 47] two Pointer and greedy" />
     <MESSAGE value="[day 48] bellman ford , and floyd algo" />
-    <option name="LAST_COMMIT_MESSAGE" value="[day 48] bellman ford , and floyd algo" />
+    <MESSAGE value="[day 49] kosaraju and articulation point" />
+    <option name="LAST_COMMIT_MESSAGE" value="[day 49] kosaraju and articulation point" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
