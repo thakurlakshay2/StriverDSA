@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3861e84-90f7-4fae-8c98-fcc0bdfe10e3" name="Changes" comment="[day 49] kosaraju and articulation point">
-      <change afterPath="$PROJECT_DIR$/src/Graph/Bipartite.java" afterDir="false" />
+    <list default="true" id="d3861e84-90f7-4fae-8c98-fcc0bdfe10e3" name="Changes" comment="[day 50] Bipartite Both BFS and DFS.">
+      <change afterPath="$PROJECT_DIR$/src/BinarySearchTree/KthLargestInAStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearchTree/MedianOfDataStream.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graph/FloydWarshallAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/FloydWarshallAlgo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,22 +53,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.CheapestFlightsWithinKStops.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DP.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StacknQueue.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TopolgicalSortUsingBFS.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TopologicalSortUsingDFS.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Striver/DSA/src/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CheapestFlightsWithinKStops.executor": "Run",
+    "Application.DP.Main.executor": "Run",
+    "Application.FloydWarshallAlgo.executor": "Run",
+    "Application.KthLargestInAStream.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MedianOfDataStream.executor": "Run",
+    "Application.StacknQueue.Main.executor": "Run",
+    "Application.TopolgicalSortUsingBFS.executor": "Run",
+    "Application.TopologicalSortUsingDFS.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "D:/Striver/DSA/src/Main.java"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Arrays.Main" />
@@ -207,7 +212,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719594731349</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="[day 50] Bipartite Both BFS and DFS.">
+      <option name="closed" value="true" />
+      <created>1720289456112</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1720289456112</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -247,7 +260,8 @@
     <MESSAGE value="[day 47] two Pointer and greedy" />
     <MESSAGE value="[day 48] bellman ford , and floyd algo" />
     <MESSAGE value="[day 49] kosaraju and articulation point" />
-    <option name="LAST_COMMIT_MESSAGE" value="[day 49] kosaraju and articulation point" />
+    <MESSAGE value="[day 50] Bipartite Both BFS and DFS." />
+    <option name="LAST_COMMIT_MESSAGE" value="[day 50] Bipartite Both BFS and DFS." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
