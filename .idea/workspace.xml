@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3861e84-90f7-4fae-8c98-fcc0bdfe10e3" name="Changes" comment="[day 50] Bipartite Both BFS and DFS.">
-      <change afterPath="$PROJECT_DIR$/src/BinarySearchTree/KthLargestInAStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearchTree/MedianOfDataStream.java" afterDir="false" />
+    <list default="true" id="d3861e84-90f7-4fae-8c98-fcc0bdfe10e3" name="Changes" comment="[day 51] stream">
+      <change afterPath="$PROJECT_DIR$/src/Recursion/NonDecreasingSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/ReverseWordsinaStringIII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graph/FloydWarshallAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/FloydWarshallAlgo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,7 +219,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720289456112</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="[day 51] stream">
+      <option name="closed" value="true" />
+      <created>1720707205545</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1720707205545</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -261,7 +268,8 @@
     <MESSAGE value="[day 48] bellman ford , and floyd algo" />
     <MESSAGE value="[day 49] kosaraju and articulation point" />
     <MESSAGE value="[day 50] Bipartite Both BFS and DFS." />
-    <option name="LAST_COMMIT_MESSAGE" value="[day 50] Bipartite Both BFS and DFS." />
+    <MESSAGE value="[day 51] stream" />
+    <option name="LAST_COMMIT_MESSAGE" value="[day 51] stream" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
