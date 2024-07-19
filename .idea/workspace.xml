@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3861e84-90f7-4fae-8c98-fcc0bdfe10e3" name="Changes" comment="interview question IBM">
-      <change afterPath="$PROJECT_DIR$/src/DivideNConquer/LogicalORofTwoBinaryGridsRepresentedAsQuadTrees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DivideNConquer/SortAnArray.java" afterDir="false" />
+    <list default="true" id="d3861e84-90f7-4fae-8c98-fcc0bdfe10e3" name="Changes" comment="Divide and conquer">
+      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/FrequencyoftheMostFrequentElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/MaximumErasureValue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -243,7 +243,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721061684914</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Divide and conquer">
+      <option name="closed" value="true" />
+      <created>1721151527549</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1721151527549</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -287,7 +295,8 @@
     <MESSAGE value="[day 51] stream" />
     <MESSAGE value="change practice" />
     <MESSAGE value="interview question IBM" />
-    <option name="LAST_COMMIT_MESSAGE" value="interview question IBM" />
+    <MESSAGE value="Divide and conquer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Divide and conquer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
