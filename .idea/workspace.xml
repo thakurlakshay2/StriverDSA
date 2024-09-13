@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3861e84-90f7-4fae-8c98-fcc0bdfe10e3" name="Changes" comment="interview greedy question [rupicard]">
-      <change afterPath="$PROJECT_DIR$/src/Trie/MapSumPairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trie/ReplaceWords.java" afterDir="false" />
+    <list default="true" id="d3861e84-90f7-4fae-8c98-fcc0bdfe10e3" name="Changes" comment="Trie Questions practice">
+      <change afterPath="$PROJECT_DIR$/src/InterviewQuestions/Zeta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -281,7 +280,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723477236993</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Trie Questions practice">
+      <option name="closed" value="true" />
+      <created>1723564399887</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1723564399887</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -330,7 +337,8 @@
     <MESSAGE value="array dp question" />
     <MESSAGE value="greedy question" />
     <MESSAGE value="interview greedy question [rupicard]" />
-    <option name="LAST_COMMIT_MESSAGE" value="interview greedy question [rupicard]" />
+    <MESSAGE value="Trie Questions practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Trie Questions practice" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
